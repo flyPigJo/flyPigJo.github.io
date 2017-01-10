@@ -1,18 +1,100 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
 
-  <body>
-<div class="nav">
-  <ul>
-    <li>home</li>
-    <li>traveling with 飞猪m小姐</li>
-    <li>your recommand</li>
-  </ul>
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>蓝色下拉滑动二级导航菜单</title>
+<style  type="text/css">
+body{
+	margin:0;
+	font-family:'微软雅黑','Times New Roman', Times, serif;
+	}
+.navi_head{
+	height:50px;
+	background-color:#459df5;
+}
+.navi_body{
+	overflow:hidden;
+	height:150px;
+	background:rgba(36,97,158,0.9);
+	transition:height ease 0.5s;
+}
+.navi_body:hover{
+	height:300px;
+}
+
+.navi_head>div>span{
+	width:150px;
+	text-align:center;
+	height:300px;
+	display:inline-block;
+	font-weight:bold;
+	color:#FFF;
+	font-size:14px;
+	vertical-align:top;
+}
+
+.navi_head>div>span>p a{
+	color:#FFF;
+	text-decoration:none;
+}
+.navi_head>div>span>p a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.navi_title{
+	font-size:16px;
+	line-height:50px;
+	margin-top:0;
+}
+
+.navi_head>div>span:hover{
+	background:rgba(100,100,100,0.2);
+}
+</style>
+</head>
+<body>
+	<div>
+		<div class="navi_body">
+			<div class="navi_head">
+				<div style="width:80%; margin-left:auto; margin-right:auto;">
+          <span>
+            <p class="navi_title">XUZONE</p>
+          </span>
+          <span>
+						<p class="navi_title">Home</p>
+					</span>
+					<span>
+						<p class="navi_title">about me</p>
+					</span>
+					<span>
+						<p class="navi_title">软件下载</p>
+						<p><a href="">WEB编译工具</a></p>
+						<p><a href="">桌面整理工具</a></p>
+					</span>
+					<span>
+						<p class="navi_title">招贤纳士</p>
+						<p><a href="">WEB前端工程师</a></p>
+						<p><a href="">JAVAWEB工程师</a></p>
+						<p><a href="">APP开发工程师</a></p>
+						<p><a href="">数据库工程师</a></p>
+						<p><a href="">软件架构师</a></p>
+						<p><a href="">技术客服</a></p>
+					</span>
+					<span>
+						<p class="navi_title">给我留言</p>
+						<p><a href="">站内留言</a></p>
+						<p><a href="">站长信箱</a></p>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="text-align:center;">
+<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
 </div>
 
-  </body>
-<html>
+</body>
+</html>
